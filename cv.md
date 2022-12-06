@@ -1,0 +1,3 @@
+# Slurm and rolling scopes
+# My name is Vladislav
+# My surname Ponomarev
