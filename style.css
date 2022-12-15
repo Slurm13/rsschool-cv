@@ -4,7 +4,7 @@
     src: url("./assets/fonts/Roboto-Black.ttf");
 }
 
-body {
+.body {
     font-family: Roboto-Black, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -93,8 +93,7 @@ html {
 .mejpg {
     width: 200px;
     height: 200px;
-    top: 100px;
-    left: 200px;
+    position: relative;
     border-radius: 50%;
     transition: .3s;
     margin-right: 200px;
@@ -197,9 +196,4 @@ html {
     background-color: black;
     border: 10px solid gray;
     padding: 15px;
-   }
-
-   .cv {
-    width: 100px;
-    height: 100px;
    }
