@@ -9,14 +9,14 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
-    color: pink;
+    color: rgb(2, 6, 10);
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url(./assets/img/background.jpg) no-repeat;
+    background: linear-gradient(to right, rgb(150, 78, 245), rgb(140, 240, 178));
     background-size: cover;
 }
 
@@ -82,12 +82,12 @@ html {
 
 .link {
     text-decoration: none;
-    color: rgb(134, 153, 240);
+    color: rgb(11, 37, 153);
     transition: color 0.5s;
 }
 
 .link:hover {
-    color: rgb(13, 0, 128);
+    color: rgb(138, 8, 8);
 }
 
 .mejpg {
@@ -99,6 +99,7 @@ html {
     transition: .3s;
     margin-right: 200px;
     object-fit: cover;
+    box-shadow: 0px 1px 18px rgba(190, 63, 63, 1);
 }
 
 .section-item {
@@ -107,9 +108,9 @@ html {
 }
 
 .main-header {
-    background-color: rgba(00, 50, 255, 1);
+    background: linear-gradient(rgb(116, 238, 132), rgb(148, 7, 124), rgb(101, 64, 172));
     display: block;
-    border-bottom: 5px solid black;
+    border-bottom: 1px solid rgb(24, 211, 218);
 }
 * {
     box-sizing: border-box;
@@ -120,10 +121,6 @@ html {
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 10px solid rgba(0, 200, 0, 0.5);
-    border-left: 10px solid rgba(0, 200, 0, 0.5);
-    border-right: 10px solid rgba(0, 200, 0, 0.5);
-    border-radius: 10%;
 }
 
 .profile-title {
@@ -150,13 +147,13 @@ html {
 
 .nickname {
     font-size: 24px;
-    color: rgba(7, 95, 5, 0.5);
+    color: rgba(155, 35, 35, 0.8);
 }
 
 .section-title {
     font-size: 20px;
     text-transform: uppercase;
-    color: #97b5be;
+    color: #0e0304;
 }
 
 .nav-item {
@@ -173,13 +170,16 @@ html {
 }
 
 .footer-container {
-    background-color: rgba(0, 200, 0, 1);
-    border-top: 5px solid black;
+    background: linear-gradient(rgb(101, 64, 172),rgb(148, 7, 124), rgb(116, 238, 132));
+    border-top: 1px solid rgb(24, 211, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .year-link {
 position: relative;
-right: 200px; bottom: 0;
+right: 850px; bottom: 0;
 }
 
 .logo {
