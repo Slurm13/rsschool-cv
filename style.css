@@ -99,6 +99,7 @@ html {
     transition: .3s;
     margin-right: 200px;
     object-fit: cover;
+    border: 3px solid gray;
 }
 
 .section-item {
