@@ -169,23 +169,24 @@ html {
     height: 45px;
 }
 
-.footer-container {
+.footer{
     background: linear-gradient(rgb(101, 64, 172),rgb(148, 7, 124), rgb(116, 238, 132));
     border-top: 1px solid rgb(24, 211, 218);
+    padding: 20px;
+}
+
+.footer-container {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
-
 .year-link {
-position: relative;
-right: 850px; bottom: 0;
-}
-
-.logo {
     position: relative;
-    left: 1750px; bottom: 25px;
-}
+    right: 850px; bottom: 0;
+    }
+   
+
 
 .year {
     font-weight: 1000;
