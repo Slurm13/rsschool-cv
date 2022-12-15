@@ -87,7 +87,7 @@ html {
 }
 
 .link:hover {
-    color: green;
+    color: rgb(13, 0, 128);
 }
 
 .mejpg {
@@ -162,12 +162,25 @@ html {
     word-spacing: 5px;
 }
 
-.footer-container {
-    background-color: rgba(43, 207, 79, 0.5);
-    display: block;
-    padding: 0px 950px;
+.logo {
+    width: 121px;
+    height: 45px;
 }
 
-.footer-link {
-    
+.footer-container {
+    background-color: rgba(0, 200, 0, 0.5);
+}
+
+.year-link {
+position: relative;
+right: 200px; bottom: 0;
+}
+
+.logo {
+    position: relative;
+    left: 1750px; bottom: 25px;
+}
+
+.year {
+    font-weight: 1000;
 }
